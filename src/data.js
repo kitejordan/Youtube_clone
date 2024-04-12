@@ -1,5 +1,5 @@
 
-export const VITE_API_KEY = '';
+export const VITE_API_KEY = 'AIzaSyB7ZLAexEsFewc38vGxBcW8ocaSKIryIeg';
 export const value_converter = (value) => {
     if(value >= 1000000){
         return Math.floor(value/1000000) + "M";
